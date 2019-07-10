@@ -1,0 +1,73 @@
+body {
+  color       : #606060;
+  font-family : Tahoma;
+  font-size   : 13;
+}
+table {
+  border-collapse : collapse;
+}
+th {
+  background-color : #606060;
+  padding-left     : 10px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;  
+  text-align       : left;
+  color            : #FFFFFF;
+  font-size        : 13;
+}
+td {
+  background-color : #F0F0F0;
+  padding-left     : 8px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;
+  color            : #606060;
+  font-size        : 13;
+}
+
+div.paging {
+	padding          : 8px;
+	margin           : 8px;
+	text-align       : center;
+	font-family      : Tahoma;
+	font-size        : 12px;
+  color            : #A0A0A0;
+  background-color : #000000;
+  
+}
+div.paging a {
+	padding             : 2px 5px;
+	margin-right        : 3px;
+	border              : 1px solid #909090;
+	text-decoration     : none; 
+	color               : #C0C0C0;
+	background-image    : url('images/bar1.gif');
+	background-position : bottom;
+}
+div.paging a:hover {
+	border           : 1px solid #F0F0F0;
+	color            : #FFFFFF;
+	background-image : url('images/bar2.gif');
+	background-color : #404040;
+}
+div.paging span.current {
+	padding          : 2px 5px;
+	margin-right     : 3px;
+	font-weight      : bold;
+	color            : #FFFFFF;
+	background-color : #606060;
+}
+div.paging span.disabled {
+	padding      : 2px 5px;
+	margin-right : 3px;
+	border       : 1px solid #606060;
+	color        : #808080;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+
+

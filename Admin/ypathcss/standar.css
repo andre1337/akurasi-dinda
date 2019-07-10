@@ -1,0 +1,69 @@
+body {
+  color       : #2E6AB1;
+  font-family : Tahoma;
+  font-size   : 13;
+}
+table {
+  border-collapse : collapse;
+}
+th {
+  background-color : #2E6AB1;
+  padding-left     : 10px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;  
+  text-align       : left;
+  color            : #FFFFFF;
+  font-size        : 13;
+}
+td {
+  background-color : #F0F0F0;
+  padding-left     : 8px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;
+  color            : #2E6AB1;
+  font-size        : 13;
+}
+
+
+div.paging {
+	padding     : 2px;
+	margin      : 2px;
+	text-align  : center;
+	font-family : Tahoma;
+	font-size   : 12px;
+}
+div.paging a {
+	padding         : 2px 5px 2px 5px;
+	margin-right    : 2px;
+	border          : 1px solid #9AAFE5;
+	text-decoration : none; 
+	color           : #2E6AB1;
+}
+div.paging a:hover {
+	border           : 1px solid #2B66A5;
+	color            : #000000;
+	background-color : #FFFF80;
+}
+div.paging span.current {
+	padding          : 2px 5px 2px 5px;
+	margin-right     : 2px;
+	border           : 1px solid navy;
+	font-weight      : bold;
+	background-color : #2E6AB1;
+	color            : #FFFFFF;
+}
+div.paging span.disabled {
+	padding      : 2px 5px 2px 5px;
+	margin-right : 2px;
+	border       : 1px solid #999999;
+	color        : #999999;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+
+

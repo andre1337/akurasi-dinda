@@ -1,0 +1,71 @@
+body {
+  color       : #FF6500;
+  font-family : Tahoma;
+   font-size   : 10;
+}
+table {
+  border-collapse : collapse;
+}
+th {
+  background-color : #FFBE94;
+  padding-left     : 10px;
+  padding-right    : 8px;
+  padding-top      : 4px;
+  padding-bottom   : 4px;
+  border           : 1px solid #FF6500;  
+  text-align       : left;
+  color            : #000000;
+  font-size        : 10;
+}
+td {
+  padding-left     : 8px;
+  padding-right    : 8px;
+  padding-top      : 4px;
+  padding-bottom   : 4px;
+  border           : 1px solid #FF6500;
+  font-size        : 10;
+}
+
+
+div.paging {
+	padding     : 3px;
+	margin      : 3px;
+	text-align  : center;
+	font-family : Tahoma;
+	font-size   : 12px;
+  color       : #FF6500;
+}
+div.paging a {
+	padding             : 5px 7px;
+	margin-right        : 3px;
+	border              : 1px solid #FF9600;
+	text-decoration     : none; 
+	background-image    : url(images/gradasi.jpg);
+	background-position : bottom;
+	color               : #FF6500;
+}
+div.paging a:hover {
+	border           : 1px solid #FF9600;
+	color            : #FF6500;
+	background-color : #FFC794;
+	background-image : none;
+}
+div.paging span.current {
+	padding          : 5px 7px;
+	margin-right     : 3px;
+	border           : 1px solid FF6500;
+	font-weight      : bold;
+	background-color : #FFBE94;
+	color            : #FF6500;
+}
+div.paging span.disabled {
+	padding      : 5px 7px;
+	margin-right : 3px;
+	border       : 1px solid #FFC082;
+	color        : #FFC082;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+
+

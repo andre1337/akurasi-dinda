@@ -1,0 +1,18 @@
+ $sql="select * from `$tbbukutamu` order by `kode_bukutamu` desc";
+  $q=mysql_query($sql);
+  $jum=mysql_num_rows($q);
+  $th=date("y");
+  $bl=date("m");
+  $kd="O".$th.$bl;//T1108001
+		if($jum > 0){
+			$d=mysql_fetch_array($q);
+			$idmax=$d["kode_bukutamu"];
+			$urut=substr($idmax,5,5)+1;
+				if($urut<10){$idmax="$kd"."0000".$urut;}
+				else if($urut<100){$idmax="$kd"."000".$urut;}
+				else if($urut<1000){$idmax="$kd"."00".$urut;}
+				else if($urut<10000){$idmax="$kd"."0".$urut;}
+				else{$idmax="$kd".$urut;}
+			}
+		else{$idmax="$kd"."00001";}
+		$kode_bukutamu=$idmax;

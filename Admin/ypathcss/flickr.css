@@ -1,0 +1,74 @@
+body {
+  color       : #2E6AB1;
+  font-family : Tahoma;
+  font-size   : 13;
+}
+table {
+  border-collapse : collapse;
+}
+th {
+  background-color : #2E6AB1;
+  padding-left     : 10px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;  
+  text-align       : left;
+  color            : #FFFFFF;
+  font-size        : 13;
+}
+td {
+  background-color : #F0F0F0;
+  padding-left     : 8px;
+  padding-right    : 8px;
+  padding-top      : 3px;
+  padding-bottom   : 3px;
+  border           : 1px solid #969BA5;
+  color            : #2E6AB1;
+  font-size        : 13;
+}
+
+
+div.paging {
+	padding     : 2px;
+	margin      : 2px;
+	text-align  : center;
+	font-family : Tahoma;
+	font-size   : 12px;
+}
+div.paging a {
+	padding             : 2px 6px;
+	margin-right        : 2px;
+	border              : 1px solid #DEDFDE;
+	text-decoration     : none; 
+	color               : #0061DE;
+	background-position : bottom;
+}
+div.paging a:hover {
+	border : 1px solid #000000;
+	color  : #0061DE;
+}
+div.paging span.current {
+	padding      : 2px 6px;
+	margin-right : 2px;
+	font-weight  : bold;
+	color        : #FF0084;
+}
+div.paging span.disabled {
+	padding      : 2px 6px;
+	margin-right : 2px;
+	color        : #ADAAAD;
+	font-weight  : bold;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+div.paging span.prevnext a {
+  border : none;
+}
+div.paging span.prevnext a:hover {
+	border : 1px solid #000000;
+	color  : #0061DE;
+}
+
+

@@ -1,0 +1,67 @@
+body {
+  color       : #2E6AB1;
+  font-family : Tahoma;
+  font-size   : 10;
+}
+table {
+  border-collapse : collapse;
+}
+th {
+  background-color : #003399;
+  padding-left     : 6px;
+  padding-right    : 6px;
+  padding-top      : 2px;
+  padding-bottom   : 2px;
+  border           : 1px solid #969BA5;  
+  text-align       : left;
+  color            : #FFFFFF;
+  font-size        : 10;
+}
+td {
+  background-color : #F0F0F0;
+  padding-left     : 6px;
+  padding-right    : 6px;
+  padding-top      : 2px;
+  padding-bottom   : 2px;
+  border           : 1px solid #969BA5;
+  color            : #2E6AB1;
+  font-size        : 10;
+}
+
+
+div.paging {
+	padding          : 8px;
+	margin           : 8px;
+	text-align       : center;
+	font-family      : Verdana;
+	font-size        : 12px;
+	background-image : url('images/grasi2.jpg');
+}
+div.paging a {
+	padding         : 2px 6px;
+	margin-right    : 2px;
+	border          : 1px dashed #BF6000;
+	text-decoration : none; 
+	color           : #003399;
+}
+div.paging a:hover {
+	border           : 1px solid #9DCDE7;
+	color            : #003399;
+	background-color : #FFFFFF;
+}
+div.paging span.current {
+	padding          : 2px 6px;
+	margin-right     : 2px;
+	font-weight      : bold;
+	color            : #000000;
+}
+div.paging span.disabled {
+	padding      : 2px 6px;
+	margin-right : 2px;
+	color        : #999999;
+}
+div.paging span.prevnext {
+  font-weight : bold;
+}
+
+
